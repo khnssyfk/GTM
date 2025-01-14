@@ -1,0 +1,481 @@
+{
+  "global": {},
+  "Variables/Mode 1": {
+    "Colors": {
+      "Primary": {
+        "400": {
+          "$type": "color",
+          "$value": "#e8f1ed"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#dceae4"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#b7d4c8"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#17754d"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#156945"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#125e3e"
+        }
+      },
+      "Secondary": {
+        "400": {
+          "$type": "color",
+          "$value": "#fcf6e9"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#faf2de"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#f5e4bc"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#dfa926"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#c99822"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#b2871e"
+        }
+      },
+      "Tertiary": {
+        "400": {
+          "$type": "color",
+          "$value": "#fcf6e9"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#faf2de"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#f5e4bc"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#dfa926"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#c99822"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#b2871e"
+        }
+      },
+      "Success": {
+        "600": {
+          "$type": "color",
+          "$value": "#d1f0e1"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#8bd8b4"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#17b26a"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#266749"
+        }
+      },
+      "Information": {
+        "600": {
+          "$type": "color",
+          "$value": "#e1f2ff"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#b4dfff"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#69c0ff"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#118ce5"
+        }
+      },
+      "Danger": {
+        "600": {
+          "$type": "color",
+          "$value": "#fcdad7"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#f7a19b"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#f04438"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#bb2b21"
+        }
+      },
+      "Warning": {
+        "600": {
+          "$type": "color",
+          "$value": "#fde9ce"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#fbc784"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#f79009"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#c0720d"
+        }
+      },
+      "Grey": {
+        "700": {
+          "$type": "color",
+          "$value": "#eaeaeb"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#cecfd2"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#747475"
+        }
+      },
+      "Black & White": {
+        "Black": {
+          "$type": "color",
+          "$value": "#0e0f0c"
+        },
+        "White": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      }
+    },
+    "Surface": {
+      "$type": "color",
+      "$value": "#f2f9f6"
+    },
+    "Font": {
+      "Family": {
+        "Inter": {
+          "$type": "text",
+          "$value": "Inter"
+        }
+      },
+      "Size": {
+        "12": {
+          "$type": "number",
+          "$value": 12
+        },
+        "14": {
+          "$type": "number",
+          "$value": 14
+        },
+        "16": {
+          "$type": "number",
+          "$value": 16
+        },
+        "24": {
+          "$type": "number",
+          "$value": 24
+        },
+        "30": {
+          "$type": "number",
+          "$value": 30
+        },
+        "48": {
+          "$type": "number",
+          "$value": 48
+        }
+      },
+      "Height": {
+        "16": {
+          "$type": "number",
+          "$value": 16
+        },
+        "20": {
+          "$type": "number",
+          "$value": 20
+        },
+        "24": {
+          "$type": "number",
+          "$value": 24
+        },
+        "32": {
+          "$type": "number",
+          "$value": 32
+        },
+        "36": {
+          "$type": "number",
+          "$value": 36
+        },
+        "48": {
+          "$type": "number",
+          "$value": 48
+        }
+      },
+      "Weight": {
+        "Normal": {
+          "$type": "number",
+          "$value": 400
+        },
+        "Medium": {
+          "$type": "number",
+          "$value": 500
+        },
+        "Bold": {
+          "$type": "number",
+          "$value": 700
+        }
+      }
+    }
+  },
+  "Token/Mode 1": {
+    "Colors": {
+      "Text": {
+        "Text-Black": {
+          "$type": "color",
+          "$value": "{Colors.Black & White.Black}"
+        },
+        "Text-White": {
+          "$type": "color",
+          "$value": "{Colors.Black & White.White}"
+        },
+        "Text-Primary": {
+          "$type": "color",
+          "$value": "{Colors.Primary.900}"
+        },
+        "Text-Badge-Warning": {
+          "$type": "color",
+          "$value": "{Colors.Warning.900}"
+        },
+        "Text-Badge-Success": {
+          "$type": "color",
+          "$value": "{Colors.Success.900}"
+        },
+        "Text-Badge-Information": {
+          "$type": "color",
+          "$value": "{Colors.Information.900}"
+        },
+        "Text-Badge-Danger": {
+          "$type": "color",
+          "$value": "{Colors.Danger.900}"
+        },
+        "Text-Button-Filled": {
+          "$type": "color",
+          "$value": "{Colors.Text.Text-White}"
+        },
+        "Text-Button-Disable": {
+          "$type": "color",
+          "$value": "{Colors.Grey.800}"
+        },
+        "Text-Gray": {
+          "$type": "color",
+          "$value": "{Colors.Grey.900}"
+        },
+        "Text-Button-Text-Primary": {
+          "$type": "color",
+          "$value": "{Colors.Primary.700}"
+        },
+        "Text-Danger": {
+          "$type": "color",
+          "$value": "{Colors.Danger.800}"
+        },
+        "Text-Warning": {
+          "$type": "color",
+          "$value": "{Colors.Warning.800}"
+        }
+      },
+      "Icon": {
+        "Primary": {
+          "$type": "color",
+          "$value": "{Colors.Primary.700}"
+        },
+        "Information": {
+          "$type": "color",
+          "$value": "{Colors.Information.900}"
+        },
+        "Success": {
+          "$type": "color",
+          "$value": "{Colors.Success.900}"
+        },
+        "Warning": {
+          "$type": "color",
+          "$value": "{Colors.Warning.900}"
+        },
+        "Grey": {
+          "$type": "color",
+          "$value": "{Colors.Warning.900}"
+        }
+      },
+      "Button": {
+        "Filled": {
+          "$type": "color",
+          "$value": "{Colors.Primary.700}"
+        },
+        "Filled-Hover": {
+          "$type": "color",
+          "$value": "{Colors.Primary.800}"
+        },
+        "Filled-Active": {
+          "$type": "color",
+          "$value": "{Colors.Primary.900}"
+        },
+        "Filled-Disabled": {
+          "$type": "color",
+          "$value": "{Colors.Grey.700}"
+        },
+        "Filled-Danger": {
+          "$type": "color",
+          "$value": "{Colors.Danger.800}"
+        },
+        "Hover": {
+          "$type": "color",
+          "$value": "{Colors.Primary.500}"
+        },
+        "Hover-active": {
+          "$type": "color",
+          "$value": "{Colors.Primary.600}"
+        }
+      },
+      "Stroke": {
+        "Primary": {
+          "$type": "color",
+          "$value": "{Colors.Primary.700}"
+        },
+        "Danger": {
+          "$type": "color",
+          "$value": "{Colors.Danger.800}"
+        },
+        "Warning": {
+          "$type": "color",
+          "$value": "{Colors.Warning.800}"
+        },
+        "Disable": {
+          "$type": "color",
+          "$value": "{Colors.Grey.800}"
+        }
+      },
+      "Surface": {
+        "Success": {
+          "$type": "color",
+          "$value": "{Colors.Success.600}"
+        },
+        "Warning": {
+          "$type": "color",
+          "$value": "{Colors.Warning.600}"
+        },
+        "Danger": {
+          "$type": "color",
+          "$value": "{Colors.Danger.700}"
+        },
+        "White": {
+          "$type": "color",
+          "$value": "{Surface}"
+        }
+      }
+    },
+    "Font": {
+      "Font Size": {
+        "text-xs": {
+          "$type": "number",
+          "$value": "{Font.Size.12}"
+        },
+        "text-sm": {
+          "$type": "number",
+          "$value": "{Font.Size.14}"
+        },
+        "text-base": {
+          "$type": "number",
+          "$value": "{Font.Size.16}"
+        },
+        "text-lg": {
+          "$type": "number",
+          "$value": "{Font.Size.24}"
+        },
+        "text-3xl": {
+          "$type": "number",
+          "$value": "{Font.Size.30}"
+        },
+        "text-5xl": {
+          "$type": "number",
+          "$value": "{Font.Size.48}"
+        }
+      },
+      "Line Height": {
+        "text-xs": {
+          "$type": "number",
+          "$value": "{Font.Height.16}"
+        },
+        "text-sm": {
+          "$type": "number",
+          "$value": "{Font.Height.20}"
+        },
+        "text-base": {
+          "$type": "number",
+          "$value": "{Font.Height.24}"
+        },
+        "text-lg": {
+          "$type": "number",
+          "$value": "{Font.Height.32}"
+        },
+        "text-3xl": {
+          "$type": "number",
+          "$value": "{Font.Height.36}"
+        },
+        "text-5xl": {
+          "$type": "number",
+          "$value": "{Font.Height.48}"
+        }
+      },
+      "Weight": {
+        "font-normal": {
+          "$type": "number",
+          "$value": "{Font.Weight.Normal}"
+        },
+        "font-medium": {
+          "$type": "number",
+          "$value": "{Font.Weight.Medium}"
+        },
+        "font-bold": {
+          "$type": "number",
+          "$value": "{Font.Weight.Bold}"
+        }
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global",
+      "Variables/Mode 1",
+      "Token/Mode 1"
+    ]
+  }
+}
